@@ -15,7 +15,7 @@ body {
 
     font-family:'Courier New', monospace;
 
-    font-size:22px;
+    font-size:30px;
 
     padding:10px;
 
@@ -222,8 +222,6 @@ button:hover {
 h2 {
 
 
-    font-size:18px;
-
     border-bottom:
     1px solid #00ff00;
 
@@ -238,20 +236,25 @@ h2 {
 }
 
 h1 {
-    font-size:32px;
+    font-size:2rem;
 }
 
 
 h2 {
-    font-size:26px;
+    font-size:1.5rem;
 }
 
 
 button,
 input {
 
-    font-size:22px;
-
+    font-size:1.4rem;
     padding:12px;
+}
+p {
+
+    font-size:1.3rem;
+
+
 
 }
