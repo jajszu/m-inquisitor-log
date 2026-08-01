@@ -259,3 +259,69 @@ p {
 
 
 }
+
+.locked-file {
+
+    color:#666;
+
+    border-color:#555;
+
+    text-shadow:none;
+
+}
+
+
+.locked-file:hover {
+
+    background:#222;
+
+    color:#999;
+
+    box-shadow:none;
+
+}
+
+
+
+.unlocked-file {
+
+    color:#00ff00;
+
+}
+
+
+@keyframes flashRed {
+ 0% { color: #00ff00; transform: translateX(0); border: 1px solid #00ff00;}
+  10% { color: #ff0000; transform: translateX(-5px); border: 1px solid #ff0000;}
+  20% { color: #ff0000; transform: translateX(5px); border: 1px solid #ff0000;}
+  30% { color: #ff0000; transform: translateX(-5px);border: 1px solid #ff0000; }
+  40% { color: #ff0000; transform: translateX(5px); border: 1px solid #ff0000;}
+  50% { color: #ff0000; transform: translateX(-3px);border: 1px solid #ff0000; }
+  60% { color: #ff0000; transform: translateX(3px); border: 1px solid #ff0000;}
+  70% { color: #ff0000; transform: translateX(-2px); border: 1px solid #ff0000;}
+  80% { color: #ff0000; transform: translateX(2px);border: 1px solid #ff0000; }
+  90% { color: #ff0000; transform: translateX(-1px); border: 1px solid #ff0000;}
+  100% { color: #00ff00; transform: translateX(0); border: 1px solid #00ff00;}
+}
+
+.input-error {
+
+    animation: flashRed 0.7s ease-in-out;
+
+}
+input:focus {
+
+    background-color:#0d0d0d;
+
+    color:#00ff00;
+
+    font-family:'Courier New', monospace;
+
+    border:1px solid #00ff00;
+
+    outline:none;
+
+    box-shadow:
+    0 0 5px #00ff00;
+
+}

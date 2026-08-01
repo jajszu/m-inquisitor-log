@@ -1,17 +1,31 @@
 let logs=[];
 
+let unlockedFiles = JSON.parse(
+    localStorage.getItem("unlockedFiles")
+) || [];
 
 fetch("data/logs.json")
 .then(r=>r.json())
 .then(data=>{
-
 logs=data;
 
-renderFiles();
+
+// przywracanie odblokowanych akt
+
+logs.forEach(log=>{
+
+    if(unlockedFiles.includes(log.id)){
+
+        log.locked=false;
+
+    }
 
 });
 
 
+renderFiles();
+
+});
 
 function renderFiles(){
 
@@ -35,7 +49,24 @@ ${log.title}
 
 
 
-btn.onclick=()=>openLog(log);
+if(log.locked){
+
+
+    btn.disabled = true;
+
+    btn.classList.add("locked-file");
+
+
+}
+else{
+
+
+    btn.onclick=()=>openLog(log);
+
+    btn.classList.add("unlocked-file");
+
+
+}
 
 
 
@@ -71,18 +102,22 @@ doc.innerHTML=
 `
 <p>
 
-+++ RECORD ${log.id} +++
++++ AKTA ${log.id} +++
+
 
 STATUS:
-LOCKED
-
-CLEARANCE REQUIRED
+ZABLOKOWANE
 
 
-<input id="unlockCode">
+POZIOM DOSTĘPU:
+WYMAGANA AUTORYZACJA
+
+
+<input id="unlockCode" placeholder="KOD AUTORYZACYJNY">
+
 
 <button onclick="checkCode('${log.code}')">
-OVERRIDE
+ODKRYJ AKTA
 </button>
 
 
@@ -102,37 +137,66 @@ showDocument(log);
 }
 
 
+function checkCode(input){
 
 
-function checkCode(correct){
+let unlockedLogs = logs.filter(log => log.code == input);
 
 
-let input=document.getElementById("unlockCode").value;
+
+if(unlockedLogs.length > 0){
 
 
-if(input==correct){
+    unlockedLogs.forEach(log=>{
 
 
-let log=logs.find(x=>x.code==correct);
+        log.locked = false;
 
 
-showDocument(log);
+        if(!unlockedFiles.includes(log.id)){
+
+            unlockedFiles.push(log.id);
+
+        }
+
+
+    });
+
+
+
+    localStorage.setItem(
+        "unlockedFiles",
+        JSON.stringify(unlockedFiles)
+    );
+
+
+    renderFiles();
+
 
 
 }
 else{
 
-alert("ACCESS DENIED");
+ let input = document.getElementById("code");
+
+
+    input.classList.remove("input-error");
+
+
+    // wymusza ponowne odpalenie animacji
+    void input.offsetWidth;
+
+
+    input.classList.add("input-error");
 
 }
 
 
 }
-
-
-
 function unlock(){
 
+    let input = document.getElementById("code").value;
+    checkCode(input);
 
 }
 
@@ -143,40 +207,44 @@ function showDocument(log){
 
 document.getElementById("document").innerHTML=
 `
-
 <p>
 
-+++ INQUISITORIAL RECORD ${log.id} +++
++++ AKTA INKWIZYCYJNE ${log.id} +++
 
 
-TITLE:
+TYTUŁ:
 
 ${log.title}
 
 
-DATE:
+DATA:
 
 ${log.date}
 
 
-LOCATION:
+LOKALIZACJA:
 
 ${log.location}
 
 
+STATUS:
 
-REPORT:
+${log.status || "TAJNE"}
+
+
+
+RAPORT:
+
 
 ${log.content}
 
 
 
-+++ END OF RECORD +++
++++ KONIEC AKT +++
 
 </p>
 
 `;
-
 }
 
 

@@ -19,6 +19,25 @@
 "code":"8472",
 "content":
 "Subject demonstrated unnatural abilities.\n\nFurther investigation required."
+},
+{
+"id":"M-003",
+"title":"THE LOUD CHOIR",
+"location":"UNKNOWN",
+"date":"M41.889",
+"locked":true,
+"code":"8472",
+"content":
+"Subject demonstrated unnatural abilities.\n\nFurther investigation required."
+},
+{
+"id":"M-004",
+"title":"THE SILENT CHOIR",
+"location":"UNKNOWN",
+"date":"M41.889",
+"locked":true,
+"code":"8473",
+"content":
+"Subject demonstrated unnatural abilities.\n\nFurther investigation required."
 }
-
 ]
