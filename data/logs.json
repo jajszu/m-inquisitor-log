@@ -1,43 +1,47 @@
 [
-{
-"id":"M-001",
-"title":"THE ASHES OF VARNAX",
-"location":"VARNAX PRIME",
-"date":"M41.887",
-"locked":false,
-"content":
-"Mission successful.\n\nChaos contamination confirmed. Purification protocol executed."
-},
-
-
-{
-"id":"M-002",
-"title":"THE SILENT CHOIR",
-"location":"UNKNOWN",
-"date":"M41.889",
-"locked":true,
-"code":"8472",
-"content":
-"Subject demonstrated unnatural abilities.\n\nFurther investigation required."
-},
-{
-"id":"M-003",
-"title":"THE LOUD CHOIR",
-"location":"UNKNOWN",
-"date":"M41.889",
-"locked":true,
-"code":"8472",
-"content":
-"Subject demonstrated unnatural abilities.\n\nFurther investigation required."
-},
-{
-"id":"M-004",
-"title":"THE SILENT CHOIR",
-"location":"UNKNOWN",
-"date":"M41.889",
-"locked":true,
-"code":"8473",
-"content":
-"Subject demonstrated unnatural abilities.\n\nFurther investigation required."
-}
+  {
+    "id": "39C10",
+    "title": "[DOSTĘP OGRANICZONY] - Początek Wypalenia",
+    "location": "NIEZNANE",
+    "date": "M41.887",
+    "locked": true,
+    "code": "1111",
+    "content": "Proces trwał tygodniami. Izolacja, głód, ból — metody surowe, lecz konieczne. Każdy dzień miał zetrzeć resztki dawnego życia, które wciąż tliły się w nim niczym zakazany ogień.<br><br>Nie było miejsca na słabość, na wspomnienia, które mogły sprowadzić chaos. Karcenie było nie tylko karą, lecz i lekcją — brutalnym przypomnieniem, że przeszłość jest martwa.<br><br>Powoli widziałem efekt. Marius, chłopiec sprzed lat, zaczął odchodzić. Z każdą kolejną torturą gasł w nim dawny człowiek, ustępując miejsca temu, kim miał się stać.<br><br>Barik narodził się z popiołów tamtego życia. Nie było już powrotu. Nie było już imienia, które nosił.<br><br>Był teraz moją własnością — narzędziem w moich rękach.<br><br>I tak ma pozostać.<br><br>— M."
+  },
+  {
+    "id": "39EC",
+    "title": "Ślad Boga Krwi",
+    "location": "NIEZNANE",
+    "date": "M41.888",
+    "locked": true,
+    "code": "1111",
+    "content": "Zauważyłem wzrost. Nie w sile, nie w wiedzy. W gniewie.<br><br>Nie był to zwykły gniew — nieodłączny przecież przy środkach, jakich używam. Ten był inny. Płonął za długo. Nosił go w milczeniu, ale było go czuć. Jak metal przed burzą. I jak burza — był obcy.<br><br>Podczas rutynowej obserwacji fizycznej ponownie zbadałem znamię. Blizna na plecach — wypalona w chwili dawnego błędu — wyglądała dziś gorzej. Pęknięcie w kształcie klingi przecinające ósemkę, liczbę Khorna. Niewielka, ale wystarczyła, by nie spać tej nocy.<br><br>Wiem, czym to pachnie.<br><br>Podjąłem działanie natychmiast. Wysłałem wiadomość — potrzebowałem mistrza igły - kogoś z doświadczeniem w rytualnym znamionowaniu.<br><br>Zanim jednak dopuściłem go do skóry — wypaliłem symbole sam. Wszystkie czyste, imperialne, bolesne. Żar wszedł głęboko — miał zniszczyć to, co plugawe. Krzyk nie miał znaczenia. Milczałem. Jak zawsze.<br><br>Tatuaż był fazą drugą. Stworzony jako wyraźny, symboliczny akt dominacji Imperium nad Chaosem oraz maska przed niepowołanymi oczami. Znak Inkwizycji obejmujący i rozrywający wizerunek demona. Zbrojne ostrze przechodzące przez rdzeń — pokrywające dawne wypalenie. Tusz nad blizną. Wiara nad skażeniem.<br><br>Mimo całej akcji, wpływ Khorna nadal tkwi pod powierzchnią. Nie bezpieczny, ale już łatwiejszy do kontroli.<br><br>Gniew, który nosi, nie należy do niego. To cienie boga krwi próbują tkać swe nici w jego duszy.<br><br>— M."
+  },
+  {
+    "id": "39DB",
+    "title": "Ostatnia Słabość Człowieka",
+    "location": "DOLTA PRIMUS",
+    "date": "M41.889",
+    "locked": true,
+    "code": "1111",
+    "content": "Planeta Dolta Primus. Świat rolniczy w czasowym nadzorze Ordo, pełen kurzu, potu i ludzi, którzy z jakiegoś powodu jeszcze nie przestali się do siebie uśmiechać. Nie przewidziałem tego wcześniej. Błąd.<br><br>Obiekt był potrzebny przy jednej z inspekcji — miał nieść sprzęt, milczeć i obserwować. Nic więcej. W teorii.<br><br>Zobaczył ich. Parę. Kobieta, mężczyzna. Ich dziecko — może cztery standardowe. Bawili się. Śmiali. Dotykali się bez strachu. Nikt nie był głodny ani zimny. Zatrzymał się, zbyt długo. Nie zadał pytania, ale spojrzenie wystarczyło.<br><br>Po powrocie do kwater tymczasowych zacząłem procedurę oczyszczenia.<br><br>Nie wolno mu widzieć piękna w słabości.<br><br>Rozebrałem obraz na części. Mówiłem o kruchości uczuć, o tym, jak łatwo człowiek zdradza, jak miłość umiera w głodzie, jak dziecko staje się ciężarem. Opowiedziałem o rodzinach rozdartych przez buntowników, o matkach mordowanych przez synów, o ojcach, którzy sprzedają dzieci za skrawki chleba. Pokazałem dokumentację. Nagrania. Autentyczne — niestety. Imperium zna prawdę.<br><br>Naznaczyłem rodzinę jako zagrożenie — potencjalne gniazdo herezji. Użyłem przykładu. Pokazałem mu, że słabość jednej jednostki zagraża całemu systemowi. Jeśli kochasz — zawahasz się. Jeśli się przywiążesz — nie sięgniesz po nóż, gdy trzeba. A czasem trzeba.<br><br>Nie mówił nic. Ale potem zniszczył rysunek, który potajemnie zrobił. Rysunek ich twarzy. Spalił go sam, nie pytany. Popiół oddał mi do dłoni. Dobry znak.<br><br>Zaczął w to wierzyć. Może nawet zrozumiał. A jeśli nie — wystarczy, że przestał czuć.<br><br>Nie ma matki. Nie ma ojca. Nie będzie miał nikogo. Tylko cel. Tylko służba. Tylko mój głos.<br><br>— M."
+  },
+   {
+    "id": "39C8",
+    "title": "Istota Odporna na Skażenie",
+    "location": "NIEZNANE",
+    "date": "M41.890",
+    "locked": true,
+    "code": "1111",
+    "content": "Znalazłem go przypadkiem. Tak przynajmniej mogłoby się wydawać. W istocie — nie wierzę w przypadki. Los nie splata ścieżek bez celu. Gdy wszedłem do tej zbezczeszczonej sali egzorcyzmu, gdzie cień Khornowego plugastwa wciąż unosił się w powietrzu niczym zaduch pożogi, wyczułem obecność. Obcą. Nieprzewidzianą. Zbyt... cichą, by była niewinna.<br><br>Był tam. Obserwował. Dziecko, zbyt małe, by w ogóle pojąć, czym jest Chaos — a jednak wytrzymał jego spojrzenie. Otarł się o otchłań. I przetrwał.<br><br>Egzorcyzm, który przeprowadzałem, był niemal ukończony. Plugastwo oderwane od ciała oficera, osłabione, gotowe do unicestwienia. I wtedy wyczułem drugą obecność. Jego — ukrytego, cichego świadka. Na ułamek sekundy odwróciłem uwagę, a to wystarczyło. Demon, nawet osłabiony, nie przestaje być istotą myślącą. Uciekł — nie zniknął, lecz... przeniknął. Schronił się tam, gdzie nikt nie powinien się znaleźć, w chłopcu.<br><br>Musiałem dokonać drugiego egzorcyzmu. W trybie natychmiastowym. Myślałem, że spłonie od środka. Że jego młody umysł się rozpadnie. Ale nie. Nie poddał się. Nie prosił o litość. Patrzył mi prosto w oczy, jakby wiedział, że teraz wszystko zależy tylko od niego. I wygrał. Odepchnął to. Zatrzymał w sobie wystarczająco długo, bym mógł go oczyścić.<br><br>To nie była ludzka siła woli — to był potencjał, który nie miał prawa tam istnieć.<br><br>Nie zignorowałem tego.<br><br>Zabrałem go jeszcze tego samego dnia. Matka, jeśli można ją tak nazwać, oddała go za kilka solarów i obietnicę lepszej przyszłości. Nie dodałem, czyja to będzie przyszłość.<br><br>Nie znał mojego imienia. Ja nie znałem jego. I tak miało pozostać. Imiona budują tożsamość. A tożsamość budzi słabość.<br><br>Zanim go ukształtuję, muszę go wyprzeć. Wypalić wszystko, co zbędne: wspomnienia, poczucie przynależności, przywiązania, litość. Uczucia są zarzewiem niekontrolowanych reakcji. A istota, która staje naprzeciwko demona, nie może mieć niczego, co czyni ją miękką w środku.<br><br>Ten chłopiec... nie. Ten materiał na broń — jest zbyt cenny, by pozwolić mu pozostać człowiekiem.<br><br>Przede mną długa droga. Ale jestem pewien, że warto ją przejść.<br><br>— M."
+  },
+  {
+    "id": "39D3",
+    "title": "Lekcja Przywiązania",
+    "location": "RAUKHAN",
+    "date": "M41.891",
+    "locked": true,
+    "code": "1111",
+    "content": "Raukhan. Kolonia przemysłowa duszona oparami, pokryta rdzą i zapomnieniem. Idealne miejsce na próbę — wśród ruin i brudu wszystko, co niepotrzebne, odpada szybciej.<br><br>Obiekt opuścił strefę przydziału na sześćdziesiąt osiem minut. Nie zareagowałem natychmiast. Wiedziałem, że wróci. I wiedziałem, że czasem trzeba pozwolić narzędziu się stępić, by wiedzieć, gdzie należy ostrzyć.<br><br>Znalazłem go przy zwierzęciu — nieistotnym, lokalnym stworzeniu przypominającym psa. Sierść zmierzwiona, oczy matowe, ale ufało. Leżało przy nim, oddychało nierówno, przyciskało się do jego dłoni jak do ostatniego ciepła w tym świecie.<br><br>Podałem mu nóż. Bez słowa. Spojrzałem tylko.<br><br>Zareagował inaczej, niż oczekiwałem. Cofnął się. Ręka mu drżała. Oczy zaszły łzami. Zaczął błagać — cicho, potem głośniej, aż głos mu się załamał. „Proszę, nie… ja nie chcę…”<br><br>Nie mogłem pozwolić, by to się utrwaliło.<br><br>Uderzyłem go — otwartą dłonią w twarz. Raz, potem drugi. Upadł. Wziął nóż dopiero wtedy, gdy już nie miał łez.<br><br>I zrobił to. Nie od razu. Ale przeciął.<br><br>Zwierzę nie walczyło. Umierało długo.<br><br>Nie odezwałem się ani słowem. Zabrałem narzędzie i wróciłem do schronu. On podążył za mną. Bez oporu. Bez żalu. Już pusty.<br><br>To było jego pierwsze życie które odebrał. Niewinne. Tym cenniejsze.<br><br>Nie może mieć nic własnego. Ani przyjaźni. Ani ulgi. Ani żalu. Przywiązanie prowadzi do wahania, wahanie do błędu, a błąd — do katastrofy.<br><br>Nie należy do siebie. Należy do mnie. I przez to — do Imperium.<br><br>— M."
+  }
 ]

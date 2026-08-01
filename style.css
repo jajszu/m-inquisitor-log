@@ -245,18 +245,22 @@ h2 {
     font-size:1.5rem;
 }
 
+button{
+    text-align: justify;
+}
 
 button,
 input {
 
     font-size:1.4rem;
     padding:12px;
+
 }
 p {
 
     font-size:1.3rem;
-
-
+      word-break: normal;
+  overflow-wrap: normal;
 
 }
 

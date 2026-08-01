@@ -210,34 +210,31 @@ document.getElementById("document").innerHTML=
 <p>
 
 +++ AKTA INKWIZYCYJNE ${log.id} +++
-
+</br>
 
 TYTUŁ:
 
 ${log.title}
-
+</br>
 
 DATA:
 
 ${log.date}
-
+</br>
 
 LOKALIZACJA:
 
 ${log.location}
-
-
-STATUS:
-
-${log.status || "TAJNE"}
+</br>
 
 
 
-RAPORT:
+
+</br>
 
 
 ${log.content}
-
+</br>
 
 
 +++ KONIEC AKT +++
