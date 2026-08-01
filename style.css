@@ -1,114 +1,178 @@
-.stage {
-  display: none;
-}
+html,body{
 
-html, body {
-    height: 100%;             /* żeby body zajmowało cały ekran */
-    margin: 0;                /* usuwa domyślne marginesy */
-    padding: 0;
-}
+margin:0;
+height:100%;
 
-body {
-    display: flex;
-    flex-direction: column;   /* układ w kolumnie */
-    justify-content: top;  /* wyśrodkowanie pionowe */
-    align-items: left;      /* wyśrodkowanie poziome */
-    
-    background-color: #0d0d0d;  /* bardzo ciemne tło */
-    color: #00ff00;              /* neonowa zieleń */
-    font-family: 'Courier New', Courier, monospace; /* terminalowa czcionka */
-    font-size: 18px;
-    line-height: 1.5;
-    padding: 20px;
-    text-align: left;           /* wyrównanie tekstu na środku */
-}
-
-/* wszystkie paragrafy jako „etykiety terminalowe” */
-p {
-    margin: 30px 0;
-    white-space: pre-wrap;
-    text-align: left; /* zachowuje spacje i enter */
 }
 
 
-/* opcjonalnie: delikatny efekt „glow” dla neonowego tekstu */
-p {
-    text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00;
+body{
+
+
+background:#0d0d0d;
+
+color:#00ff00;
+
+font-family:
+'Courier New',
+monospace;
+
+
+padding:20px;
+
+
+text-shadow:
+0 0 5px #00ff00;
+
+
 }
 
-p::before {
-  content: '';
-  display: block;           /* konieczne, żeby height i width działały */
-  height: 2px;              /* grubość linii */
-  width: 100%;              /* długość linii */
-  background-color: #00ff00;
-  margin-bottom: 30px;       /* odstęp od tekstu */
+
+
+.header{
+
+display:flex;
+
+gap:40px;
+
+align-items:center;
+
+border-bottom:
+1px solid #00ff00;
+
+padding-bottom:20px;
+
+
 }
 
-/* linki w terminalu */
-a {
-    color: #00ff00;
-    text-decoration: underline;
+
+.seal{
+
+width:180px;
+
+height:180px;
+
+
+filter:
+grayscale(100%)
+contrast(140%)
+brightness(60%)
+sepia(100%)
+hue-rotate(70deg)
+saturate(600%);
+
+
+
 }
 
-/* przycisk odblokowania / interakcje */
+
+
+.interface{
+
+display:flex;
+
+margin-top:30px;
+
+}
+
+
+
+.panel{
+
+
+border:
+1px solid #00ff00;
+
+
+padding:20px;
+
+
+width:50%;
+
+
+min-height:400px;
+
+
+}
+
+
+
 button,input{
-    background-color: #0d0d0d;
-    color: #00ff00;
-    font-family: 'Courier New', monospace;
-    font-size: 18px;
-    border: 1px solid #00ff00;
-    padding: 5px 10px;
-    cursor: pointer;
-    transition: all 0.2s;
-}
-
-button:hover {
-    background-color: #003300;
-    box-shadow: 0 0 5px #00ff00;
-}
 
 
-@keyframes flashRed {
- 0% { color: #00ff00; transform: translateX(0); border: 1px solid #00ff00;}
-  10% { color: #ff0000; transform: translateX(-5px); border: 1px solid #ff0000;}
-  20% { color: #ff0000; transform: translateX(5px); border: 1px solid #ff0000;}
-  30% { color: #ff0000; transform: translateX(-5px);border: 1px solid #ff0000; }
-  40% { color: #ff0000; transform: translateX(5px); border: 1px solid #ff0000;}
-  50% { color: #ff0000; transform: translateX(-3px);border: 1px solid #ff0000; }
-  60% { color: #ff0000; transform: translateX(3px); border: 1px solid #ff0000;}
-  70% { color: #ff0000; transform: translateX(-2px); border: 1px solid #ff0000;}
-  80% { color: #ff0000; transform: translateX(2px);border: 1px solid #ff0000; }
-  90% { color: #ff0000; transform: translateX(-1px); border: 1px solid #ff0000;}
-  100% { color: #00ff00; transform: translateX(0); border: 1px solid #00ff00;}
-}
+background:#0d0d0d;
 
-input.flash-red {
-  animation: flashRed 0.7s ease-in-out;
-}
 
-input:focus {
-     background-color: #0d0d0d;
-    color: #00ff00;
-    font-family: 'Courier New', monospace;
-    font-size: 18px;
-    border: 1px solid #00ff00;
-    padding: 5px 10px;
-    outline: none;
+border:
+1px solid #00ff00;
+
+
+color:#00ff00;
+
+
+font-family:
+Courier New;
+
+
+padding:10px;
+
+
+margin:5px;
+
+
+
 }
 
 
 
-/* responsywna mapa */
-iframe , img{
-  width: 100%;           /* dopasowanie do kontenera */
-  height: 600px;  /* proporcja 4:3, można zmienić na 75% lub 56% */
-  border: none;
+button:hover{
 
-  /* styl terminalowy / neon */
-  filter: grayscale(100%) contrast(140%) brightness(60%) sepia(100%) hue-rotate(70deg) saturate(600%);
+
+background:#003300;
+
+
+box-shadow:
+0 0 10px #00ff00;
+
+
 }
 
-img{
-    height: auto;
+
+
+.hidden{
+
+display:none;
+
+}
+
+
+
+#files button{
+
+
+display:block;
+
+width:100%;
+
+
+text-align:left;
+
+
+}
+
+
+
+.lock{
+
+
+margin-top:40px;
+
+
+border-top:
+1px solid #00ff00;
+
+
+padding-top:20px;
+
+
 }

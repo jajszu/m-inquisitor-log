@@ -1,0 +1,24 @@
+[
+{
+"id":"M-001",
+"title":"THE ASHES OF VARNAX",
+"location":"VARNAX PRIME",
+"date":"M41.887",
+"locked":false,
+"content":
+"Mission successful.\n\nChaos contamination confirmed. Purification protocol executed."
+},
+
+
+{
+"id":"M-002",
+"title":"THE SILENT CHOIR",
+"location":"UNKNOWN",
+"date":"M41.889",
+"locked":true,
+"code":"8472",
+"content":
+"Subject demonstrated unnatural abilities.\n\nFurther investigation required."
+}
+
+]
